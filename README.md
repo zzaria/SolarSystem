@@ -1,2 +1,2 @@
 # SolarSystem
-The solar system
+The solar system website
