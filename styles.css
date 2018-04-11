@@ -34,7 +34,6 @@ div.head
 /********foot*********/
 div.foot
 {
-	float:center;
 	background-color:rgb(77, 0, 77);
 	position:absolute;
 	width:100%;
