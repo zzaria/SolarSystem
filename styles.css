@@ -31,6 +31,27 @@ div.head
 	background-image:url(images/header.jpg);
 }
 
+/********foot*********/
+div.foot
+{
+	float:center;
+	background-color:rgb(77, 0, 77);
+	position:absolute;
+	width:100%;
+	bottom:0px;
+}
+div.foot p
+{
+	font-size:10px;
+	display:inline;
+	float:right;
+}
+div.foot h1
+{
+	font-size:20px;
+	display:inline;
+}
+
 /******specific****/
 #i1/*image*/
 {
