@@ -1,0 +1,273 @@
+/****general website style****/
+*
+{
+	color: white;
+	text-decoration: none;
+}/*make text white*/
+body
+{
+	background-color:black;
+	padding:0px;
+	margin:0px;
+}/*make background black*/
+
+/*************Header***********/
+ul.menu
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgba(0,0,77,0.6);
+}
+li.menu
+{
+	float:left;
+	padding:15px;
+	text-align:center;
+}
+div.head
+{
+	background-image:url(images/header.jpg);
+}
+
+/********foot*********/
+div.foot
+{
+	background-color:rgb(77, 0, 77);
+	position:absolute;
+	width:100%;
+	bottom:0px;
+}
+div.foot p
+{
+	font-size:10px;
+	display:inline;
+	float:right;
+}
+div.foot h1
+{
+	font-size:20px;
+	display:inline;
+}
+
+/******specific****/
+#i1/*image*/
+{
+	float:right;
+	width:800px;
+	height:300px;
+}
+#i2/*image*/
+{
+	float:left;
+	width:600px;
+	height:300px;
+}
+#i3/*image*/
+{
+	float:left;
+	width:700px;
+	height:400px;
+}
+#i4/*image*/
+{
+	float:right;
+	width:150px;
+	height:150px
+}
+#longimg
+{
+    overflow:auto;
+	width:850px;
+}
+#enter
+{
+    border:10px outset rgba(204,153,255,0.5);
+    padding:5px; 
+    background: rgba(204,153,255,0.5);
+	width:350px;
+	margin:auto;
+}
+#box1/*special text box*/
+{
+	width:500px;
+	background-color:rgba(128,0,128,0.3);
+	float:right;
+	margin:10px;
+}
+#cover
+{
+	background-image:url(images/cover.jpg);
+	box-shadow:0px 0px 15px 10px black;
+}
+#ctitle
+{
+	display:block;
+	margin:0 auto;
+	width:1300px;
+}
+#cover0
+{
+	background-image:url(images/back.jpg);
+	background-attachment:fixed;
+	box-shadow:0px 0px 15px 10px black;
+}
+#ctitle0
+{
+	width:800px;
+	margin:50px 0px 0px 0px;
+}
+#cover1
+{
+	background-image:url(images/earth1.jpg);
+	background-attachment:fixed;
+	box-shadow:0px 0px 15px 10px white;
+}
+#ctitle1
+{
+	width:600px;
+	margin:50px 0px 0px 0px;
+}
+#home/*home page background*/
+{
+	background-image:url(images/back0.png);
+}
+#back1/*background 1*/
+{
+	background-image:url(images/back1.jpeg);
+}
+#back2
+{
+	background-image:url(images/back2.jpg);
+}
+#back3
+{
+	background-image:url(images/back3.jpg);
+}
+#back
+{
+	background-image:url(images/back.jpg);
+	background-attachment:fixed;
+}
+
+/*******style templates***********/
+.black
+{
+	color:black;
+}
+p.black
+{
+	color:black;
+	font-size:20px;
+}
+div.feature
+{
+	border:5px double rgba(204,153,255,0.5);
+    background: rgba(204,153,255,0.5);
+    border-radius: 25px;
+	width:350px;
+	margin:auto;
+}
+hr.short
+{
+	width:30%;
+	color:seashell;
+}
+p.right/*right alighed text*/
+{
+	font-size:24px;
+	text-align:right;
+}
+div.darkbox/*text box*/
+{
+	background-color:rgb(0, 0, 102);
+	float:right;
+	margin:10px;
+    border: 5px solid violet;
+	padding:10px;
+}
+div.main/*main body*/
+{
+	margin:10px 400px 10px 200px;
+	padding:5px 10px;
+    border: 1px dashed white;
+	background-color:black;
+}
+div.main2
+{
+	margin:10px 400px 10px 200px;
+	padding:5px 10px;
+    border: 10px ridge white;
+	background-color:black;
+	box-shadow:0px 0px 20px 10px mediumorchid;
+}
+div.main3
+{
+	margin:10px 400px 10px 200px;
+	padding:15px 50px;
+	background-color:white;
+	box-shadow:-50px 50px 20px 0px black;
+}
+div.main4
+{
+	margin:10px 400px 10px 200px;
+	padding:5px 10px;
+	border: 5px double seashell;
+	background-color:rgba(255,0,255,0.8);
+}
+div.main4 *
+{
+	color:gold;
+}
+div.main4 p
+{
+	color:seashell;
+	font-size:16px;
+}
+div.side
+{
+	width:300px;
+	padding:10px;
+	position:fixed;
+	right:0px;
+	background-color:ivory;
+}
+div.side *
+{
+	color:black;
+}
+div.pgal
+{
+	position:relative;
+	width:250px;
+	height:250px;
+	display: inline-block;
+	margin:0;
+}
+div.ptext
+{
+	position:absolute;
+	bottom:10px;
+	right:10px;
+	height:50px;
+}
+img.pimg
+{
+	width:250px;
+	height:250px;
+}
+img.gal/*image gallery style*/
+{
+	width:290px;
+	height:290px;
+}
+.meme1
+{
+	width:400px;
+}
+.meme2	
+{
+	width:500px;
+	margin:0px 0px 0px 1000px;
+}
